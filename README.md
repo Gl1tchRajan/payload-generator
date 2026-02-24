@@ -1,8 +1,8 @@
-**Payload Generator**
+**Payload Generator:**
 Payload Generator is a C-based command-line tool developed to improve my understanding of system programming, memory management, file handling, and cryptographic implementations.
 This project focuses on practical development experience, implementing payload generation and encryption techniques manually to better understand how low-level systems and security tools operate.
 
-**Features**
+**Features:**
 1. Generate random text and binary payloads
 2. XOR-based encryption implementation
 3. ChaCha20 encryption support
@@ -12,7 +12,7 @@ This project focuses on practical development experience, implementing payload g
 7. Modular project structure with multiple source and header files
 8. Build automation using Makefile
 
-**Technologies Used**
+**Technologies Used:**
 1. C Programming Language
 2. File I/O Handling
 3. Dynamic Memory Management
@@ -20,18 +20,18 @@ This project focuses on practical development experience, implementing payload g
 5. Command-Line Interface Development
 6. Makefile Build System
 
-**Installation**
+**Installation:**
 Clone the Repository
 **git clone https://github.com/yourusername/Payload-Generator.git**
 cd Payload-Generator
 Build the Project
 make
 
-**Usage**
+**Usage:**
 Run the tool using:
 ./payload
 
-**Project Structure**
+**Project Structure:**
 Payload-Generator/
 │
 ├── src/              # Source files
@@ -42,7 +42,7 @@ Payload-Generator/
 ├── README.md          # Documentation
 └── LICENSE            # License information
 
-**What I Learned**
+**What I Learned:**
 Building this project improved my skills in:
 1. Structuring medium-sized C projects
 2. Writing modular and maintainable code
@@ -53,8 +53,7 @@ Building this project improved my skills in:
 7. Automating compilation with Makefile
 8. This project helped me connect theoretical cybersecurity knowledge with real-world implementation.
 
-**Screenshots**
-<img width="681" height="300" alt="image" src="https://github.com/user-attachments/assets/11b4d654-d34d-4f05-919d-6efe6e6f8887" />
+**Screenshots:**
 <img width="681" height="300" alt="image" src="https://github.com/user-attachments/assets/11b4d654-d34d-4f05-919d-6efe6e6f8887" />
 
 Example:
@@ -62,7 +61,7 @@ Example:
 Payload generated successfully!
 Saved to output/payload.bin
 
-**Contributing**
+**Contributing:**
 Contributions are welcome!
 If you'd like to improve the project:
 1. Fork the repository
@@ -70,10 +69,10 @@ If you'd like to improve the project:
 3. Improve features or fix bugs
 4. Submit a pull request
 
-**Disclaimer**
+**Disclaimer:**
 This project is developed strictly for educational purposes.
 It was created to learn system programming and encryption concepts. It should not be used for illegal, malicious, or unauthorized activities.
 
-**Author**
+**Author:**
 Rajan Kumar Mahato Tharu
 GitHub: https://github.com/Gl1tchRajan
