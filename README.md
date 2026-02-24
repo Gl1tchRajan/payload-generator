@@ -1,7 +1,7 @@
 **Payload Generator:**
 
-Payload Generator is a C-based command-line tool developed to improve my understanding of system programming, memory management, file handling, and cryptographic implementations.
-This project focuses on practical development experience, implementing payload generation and encryption techniques manually to better understand how low-level systems and security tools operate.
+Payload Generator is a C-based command-line application designed to explore low-level system programming concepts including memory management, file handling, modular architecture, and cryptographic implementation.
+This project focuses on manually implementing encryption techniques and payload generation logic to gain deeper insight into how security tools and system-level utilities function internally.
 
 **Features:**
 1. Generate random text and binary payloads
@@ -23,7 +23,7 @@ This project focuses on practical development experience, implementing payload g
 
 **Installation:**
 Clone the Repository
-**git clone https://github.com/yourusername/Payload-Generator.git**
+**git clone https://github.com/Gl1tchRajan/Payload-Generator.git**
 , cd Payload-Generator
 , Build the Project
 , make.
@@ -56,13 +56,13 @@ Building this project improved my skills in:
 
 **Screenshots:**
 
-<img width="612" height="316" alt="image" src="https://github.com/user-attachments/assets/5d45cf05-4c6f-4b7c-ad7e-084d967a3b71" />
+<img width="750" height="297" alt="image" src="https://github.com/user-attachments/assets/5d45cf05-4c6f-4b7c-ad7e-084d967a3b71" />
 
 <img width="750" height="297" alt="image" src="https://github.com/user-attachments/assets/2a523a43-93e4-4c4a-97ee-b3ed113303a0" />
 
 <img width="750" height="297" alt="image" src="https://github.com/user-attachments/assets/5a14ef31-046b-49a0-b569-206adb9f228a" />
 
-<img width="682" height="313" alt="image" src="https://github.com/user-attachments/assets/74be20ae-597b-4484-8175-e5675aade195" />
+<img width="750" height="297" alt="image" src="https://github.com/user-attachments/assets/74be20ae-597b-4484-8175-e5675aade195" />
 
 Example:
 ./payload
@@ -91,7 +91,7 @@ Rajan Kumar Mahato Tharu
 
 **GitHub Stats:**
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?Gl1tchRajan=Gl1tchRajan&show_icons=true&theme=tokyonight)
-, GitHub: https://github.com/Gl1tchRajan
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=Gl1tchRajan&show_icons=true&theme=tokyonight),
+GitHub: https://github.com/Gl1tchRajan
 
 
