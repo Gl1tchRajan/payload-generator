@@ -94,7 +94,6 @@ Rajan Kumar Mahato Tharu
 
 **GitHub Stats:**
 
-[![GitHub stats](https://github-readme-stats.vercel.app/api?username=Gl1tchRajan&show_icons=true&theme=tokyonight)](https://github.com/Gl1tchRajan)
 GitHub: https://github.com/Gl1tchRajan
 
 
