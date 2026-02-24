@@ -1,4 +1,5 @@
 **Payload Generator:**
+
 Payload Generator is a C-based command-line tool developed to improve my understanding of system programming, memory management, file handling, and cryptographic implementations.
 This project focuses on practical development experience, implementing payload generation and encryption techniques manually to better understand how low-level systems and security tools operate.
 
@@ -23,9 +24,9 @@ This project focuses on practical development experience, implementing payload g
 **Installation:**
 Clone the Repository
 **git clone https://github.com/yourusername/Payload-Generator.git**
-cd Payload-Generator
-Build the Project
-make
+, cd Payload-Generator
+, Build the Project
+, make.
 
 **Usage:**
 Run the tool using:
@@ -55,6 +56,10 @@ Building this project improved my skills in:
 
 **Screenshots:**
 <img width="681" height="300" alt="image" src="https://github.com/user-attachments/assets/11b4d654-d34d-4f05-919d-6efe6e6f8887" />
+
+<img width="785" height="470" alt="image" src="https://github.com/user-attachments/assets/e03e5d13-ba31-4a7f-bb15-af74b33438fd" />
+
+<img width="750" height="297" alt="image" src="https://github.com/user-attachments/assets/4c31bb42-dd10-4d76-8ab0-e6b1559ef5bf" />
 
 Example:
 ./payload
