@@ -82,5 +82,9 @@ This project is developed strictly for educational purposes.
 It was created to learn system programming and encryption concepts. It should not be used for illegal, malicious, or unauthorized activities.
 
 **Author:**
-Rajan Kumar Mahato Tharu
-GitHub: https://github.com/Gl1tchRajan
+Rajan Kumar Mahato Tharu 
+![C](https://img.shields.io/badge/Language-C-blue)
+![Linux](https://img.shields.io/badge/OS-Linux-orange)
+, GitHub: https://github.com/Gl1tchRajan
+
+
