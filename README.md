@@ -55,11 +55,14 @@ Building this project improved my skills in:
 8. This project helped me connect theoretical cybersecurity knowledge with real-world implementation.
 
 **Screenshots:**
-<img width="681" height="300" alt="image" src="https://github.com/user-attachments/assets/11b4d654-d34d-4f05-919d-6efe6e6f8887" />
 
-<img width="785" height="470" alt="image" src="https://github.com/user-attachments/assets/e03e5d13-ba31-4a7f-bb15-af74b33438fd" />
+<img width="612" height="316" alt="image" src="https://github.com/user-attachments/assets/5d45cf05-4c6f-4b7c-ad7e-084d967a3b71" />
 
-<img width="750" height="297" alt="image" src="https://github.com/user-attachments/assets/4c31bb42-dd10-4d76-8ab0-e6b1559ef5bf" />
+<img width="750" height="297" alt="image" src="https://github.com/user-attachments/assets/2a523a43-93e4-4c4a-97ee-b3ed113303a0" />
+
+<img width="750" height="297" alt="image" src="https://github.com/user-attachments/assets/5a14ef31-046b-49a0-b569-206adb9f228a" />
+
+<img width="682" height="313" alt="image" src="https://github.com/user-attachments/assets/74be20ae-597b-4484-8175-e5675aade195" />
 
 Example:
 ./payload
