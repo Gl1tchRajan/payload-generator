@@ -83,8 +83,15 @@ It was created to learn system programming and encryption concepts. It should no
 
 **Author:**
 Rajan Kumar Mahato Tharu 
-![C](https://img.shields.io/badge/Language-C-blue)
-![Linux](https://img.shields.io/badge/OS-Linux-orange)
+![Typing SVG](https://readme-typing-svg.herokuapp.com?color=00FF00&size=22&center=true&vCenter=true&width=500&lines=Cybersecurity+Enthusiast;C+Programmer;Linux+User)
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c)
+![Linux](https://img.shields.io/badge/Linux-000000?style=for-the-badge&logo=linux)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)
+
+**GitHub Stats:**
+
+![GitHub stats](https://github-readme-stats.vercel.app/api?Gl1tchRajan=Gl1tchRajan&show_icons=true&theme=tokyonight)
 , GitHub: https://github.com/Gl1tchRajan
 
 
