@@ -86,6 +86,7 @@ Rajan Kumar Mahato Tharu
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?color=00FF00&size=23&center=true&vCenter=true&width=700&lines=Cybersecurity+Student;C+Programmer;Linux+Enthusiast;Ethical+Hacking+Learner;Building+Low-Level+Security+Tools" />
 </p>
+
 [![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c)](https://en.wikipedia.org/wiki/C_(programming_language))
 [![Linux](https://img.shields.io/badge/Linux-000000?style=for-the-badge&logo=linux)](https://www.kernel.org/)
 [![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git)](https://git-scm.com/)
