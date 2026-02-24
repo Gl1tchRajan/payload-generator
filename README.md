@@ -83,6 +83,9 @@ It was created to learn system programming and encryption concepts. It should no
 
 **Author:**
 Rajan Kumar Mahato Tharu 
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?color=00FF00&size=23&center=true&vCenter=true&width=700&lines=Cybersecurity+Student;C+Programmer;Linux+Enthusiast;Ethical+Hacking+Learner;Building+Low-Level+Security+Tools" />
+</p>
 [![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c)](https://en.wikipedia.org/wiki/C_(programming_language))
 [![Linux](https://img.shields.io/badge/Linux-000000?style=for-the-badge&logo=linux)](https://www.kernel.org/)
 [![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git)](https://git-scm.com/)
@@ -90,7 +93,7 @@ Rajan Kumar Mahato Tharu
 
 **GitHub Stats:**
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=Gl1tchRajan&show_icons=true&theme=tokyonight),
+[![GitHub stats](https://github-readme-stats.vercel.app/api?username=Gl1tchRajan&show_icons=true&theme=tokyonight)](https://github.com/Gl1tchRajan)
 GitHub: https://github.com/Gl1tchRajan
 
 
