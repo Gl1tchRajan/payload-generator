@@ -1,6 +1,6 @@
 #include "../include/payload.h"
 #include <string.h>
-
+#include "../include/chacha.h"
 int main()
 {
     int size;
@@ -42,6 +42,15 @@ int main()
         scanf("%s", key);
         xor_encrypt(payload, size, key);
     }
+
+char chacha_choice;
+printf("Encrypt with ChaCha20? (y/n): ");
+scanf(" %c", &chacha_choice);
+
+if (chacha_choice == 'y' || chacha_choice == 'Y')
+{
+    chacha_encrypt(payload, size);
+}
 
     print_hex(payload, size);
 
