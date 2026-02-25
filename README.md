@@ -69,12 +69,9 @@ Logs include:
 5. Execution status
 
 **Encrptytion:**
-```
-Currently implemented:
- XOR encryption
-Optional future enhancement:
- Real ChaCha20 stream cipher implementation
-```
+Currently implemented: XOR encryption
+
+Optional future enhancement: Real ChaCha20 stream cipher implementation
 
  **Error Handling & Validation:**
 The program validates:
@@ -121,6 +118,7 @@ Building this project improved my skills in:
 **Screenshots:**
 
 Screenshot 1: Project Structure
+
 <img width="750" height="297" alt="image" src="https://github.com/user-attachments/assets/5f0397dc-bc17-4261-8289-013a25342c16" />
 
 Screenshot 2: Compilation
