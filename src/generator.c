@@ -1,3 +1,22 @@
+/*
+ * Module: generator.c
+ *
+ * Description:
+ * This module is responsible for generating payload data
+ * based on the selected mode.
+ *
+ * Supported Modes:
+ *  - random : Generates alphanumeric payload
+ *  - binary  : Generates random binary data using /dev/urandom
+ *
+ * If /dev/urandom is unavailable, it falls back to pseudo-random
+ * number generation.
+ *
+ * This module handles core payload creation logic.
+ *
+ * Author: Rajan Kumar Mahato Tharu
+ */
+
 #include "../include/payload.h"
 #include <string.h>
 #include <time.h>

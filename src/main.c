@@ -1,27 +1,101 @@
-#include "../include/payload.h"
+/*
+ * Payload Generator Project
+ *
+ * File: main.c
+ *
+ * Description:
+ * This file serves as the entry point of the Payload Generator tool.
+ * It handles command-line argument parsing, input validation,
+ * directory creation, and orchestrates the overall workflow.
+ *
+ * Responsibilities:
+ *  - Parse CLI arguments
+ *  - Validate user input
+ *  - Create required directories (output/ and logs/)
+ *  - Call payload generator
+ *  - Apply encryption if selected
+ *  - Save output and log operations
+ *
+ * Author: Rajan Kumar Mahato Tharu
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
+#include <stdint.h>
+#include <unistd.h>
+
+#include "../include/payload.h"
 #include "../include/chacha.h"
-int main()
+
+void print_help()
 {
-    int size;
+    printf("Payload Generator Tool\n");
+    printf("Usage:\n");
+    printf("  ./payload -s <size> -m <mode> -o <output> -k <key>\n\n");
+    printf("Options:\n");
+    printf("  -s  Payload size\n");
+    printf("  -m  Mode (random/binary)\n");
+    printf("  -o  Output filename\n");
+    printf("  -k  XOR key\n");
+    printf("  -h  Help\n");
+}
+
+int main(int argc, char *argv[])
+{
+    int size = 0;
     char mode[20] = "random";
+    char filename[200] = "payload.bin";
     char key[100] = "";
-    char filename[200] = "";
-    char choice;
 
-    printf("Enter Payload Size (Max %d): ", MAX_LIMIT);
+    int opt;
 
-    if (scanf("%d", &size) != 1)
+    while ((opt = getopt(argc, argv, "s:m:o:k:h")) != -1)
     {
-        printf("Invalid input!\n");
-        return 1;
+        switch (opt)
+        {
+        case 's':
+            size = atoi(optarg);
+            break;
+
+        case 'm':
+            strncpy(mode, optarg, sizeof(mode) - 1);
+            break;
+
+        case 'o':
+            strncpy(filename, optarg, sizeof(filename) - 1);
+            break;
+
+        case 'k':
+            strncpy(key, optarg, sizeof(key) - 1);
+            break;
+
+        case 'h':
+            print_help();
+            return 0;
+
+        default:
+            print_help();
+            return 1;
+        }
     }
 
-    if (size <= 0 || size > MAX_LIMIT)
-    {
-        printf("Invalid payload size!\n");
-        return 1;
-    }
+if (size <= 0 || size > MAX_LIMIT)
+{
+    fprintf(stderr,
+        "[-] Invalid size! Allowed range: 1 - %d bytes\n",
+        MAX_LIMIT);
+    return EXIT_FAILURE;
+}
+
+if (strcmp(mode, "random") != 0 &&
+    strcmp(mode, "binary") != 0)
+{
+    fprintf(stderr,
+        "[-] Invalid mode! Use 'random' or 'binary'\n");
+    return EXIT_FAILURE;
+}	system("mkdir -p output");
+	system("mkdir -p logs");
 
     uint8_t *payload = malloc(size + 1);
 
@@ -31,48 +105,19 @@ int main()
         return 1;
     }
 
-    printf("Mode (random/binary): ");
-    scanf("%19s", mode);
-
     generate_payload(payload, size, mode);
 
-    printf("Encrypt with XOR? (y/n): ");
-    scanf(" %c", &choice);
-
-    if (choice == 'y' || choice == 'Y')
+    if (strlen(key) > 0)
     {
-        printf("Enter XOR Key: ");
-        scanf("%99s", key);
         xor_encrypt(payload, size, key);
     }
 
-char chacha_choice;
-printf("Encrypt with ChaCha20? (y/n): ");
-scanf(" %c", &chacha_choice);
-
-if (chacha_choice == 'y' || chacha_choice == 'Y')
-{
-uint8_t key[32] = {0};
-uint8_t nonce[12] = {0};
-
-printf("Enter 32-byte key (hex or string simplified): ");
-scanf("%32s", key);
-
-printf("Enter 12-byte nonce: ");
-scanf("%12s", nonce);
-
-chacha20_encrypt(payload, size, key, nonce);
-}
-
     print_hex(payload, size);
-
-    printf("Enter filename to save (optional): ");
-    scanf("%199s", filename);
-
     save_payload(payload, size, filename);
 
-    write_log("Program executed successfully.");
+    write_log("Payload generated using CLI mode.");
 
     free(payload);
+
     return 0;
 }

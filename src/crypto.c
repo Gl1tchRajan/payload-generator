@@ -1,3 +1,22 @@
+/*
+ * Module: crypto.c
+ *
+ * Description:
+ * This module handles encryption functionality for the payload tool.
+ *
+ * Currently Supported:
+ *  - XOR-based encryption using a user-defined key
+ *
+ * Purpose:
+ *  Demonstrates symmetric encryption logic and basic cryptographic
+ *  operations on generated payload data.
+ *
+ * Future Improvement:
+ *  - Upgrade to full ChaCha20 implementation
+ *
+ * Author: Rajan Kumar Mahato Tharu
+ */
+
 #include "../include/payload.h"
 #include <string.h>
 

@@ -1,3 +1,18 @@
+/*
+ * Module: output.c
+ *
+ * Description:
+ * This module handles output formatting and file storage.
+ *
+ * Responsibilities:
+ *  - Print payload in hexadecimal format
+ *  - Save generated payload to the output/ directory
+ *  - Automatically generate timestamped filenames
+ *
+ * It ensures proper file organization and structured storage.
+ * Author: Rajan Kumar Mahato Tharu
+ */
+
 #include <string.h>
 #include "../include/payload.h"
 #include <time.h>
@@ -20,6 +35,7 @@ void print_hex(const uint8_t *payload, int size)
 void save_payload(const uint8_t *payload, int size, const char *filename)
 {
     char final_name[200];
+    char final_path[300];   // ✅ ADD THIS HERE
 
     if (filename == NULL || strlen(filename) == 0)
     {
@@ -37,19 +53,22 @@ void save_payload(const uint8_t *payload, int size, const char *filename)
     }
     else
     {
-	strncpy(final_name, filename, sizeof(final_name) - 1);
-	final_name[sizeof(final_name) - 1] = '\0';
+        strncpy(final_name, filename, sizeof(final_name) - 1);
+        final_name[sizeof(final_name) - 1] = '\0';
     }
 
-    FILE *f = fopen(final_name, "wb");
-    if (!f)
-    {
-        printf("File save failed!\n");
-        return;
-    }
+    sprintf(final_path, "output/%s", final_name);  // ✅ ADD THIS
 
+FILE *f = fopen(final_path, "wb");
+if (!f)
+{
+    fprintf(stderr,
+        "[-] Failed to open file for writing: %s\n",
+        final_path);
+    return;
+}
     fwrite(payload, 1, size, f);
     fclose(f);
 
-    printf("Payload saved as: %s\n", final_name);
+    printf("Payload saved to: %s\n", final_path);  // ✅ Now it works
 }

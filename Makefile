@@ -1,7 +1,7 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -Iinclude
 
-SRC = src/main.c src/generator.c src/crypto.c src/output.c src/logger.c
+SRC = src/*.c
 
 OUT = payload
 
