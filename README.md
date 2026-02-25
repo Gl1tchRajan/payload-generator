@@ -24,15 +24,18 @@ This project focuses on manually implementing encryption techniques and payload 
 **Installation:**
 Clone the Repository
 **git clone https://github.com/Gl1tchRajan/Payload-Generator.git**
+```
  cd Payload-Generator
  Build the Project
  make.
+```
 
 **Usage:**
 Run the tool using:
 ./payload
 
 **Project Structure:**
+```
 Payload-Generator/
 │
 ├── src/              # Source files
@@ -42,6 +45,7 @@ Payload-Generator/
 ├── Makefile           # Build automation
 ├── README.md          # Documentation
 └── LICENSE            # License information
+```
 
 **What I Learned:**
 Building this project improved my skills in:
@@ -65,9 +69,11 @@ Building this project improved my skills in:
 <img width="750" height="297" alt="image" src="https://github.com/user-attachments/assets/74be20ae-597b-4484-8175-e5675aade195" />
 
 Example:
+```
 ./payload
 Payload generated successfully!
 Saved to output/payload.bin
+```
 
 **Contributing:**
 Contributions are welcome!
