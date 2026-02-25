@@ -69,10 +69,12 @@ Logs include:
 5. Execution status
 
 **Encrptytion:**
+```
 Currently implemented:
  XOR encryption
 Optional future enhancement:
  Real ChaCha20 stream cipher implementation
+```
 
  **Error Handling & Validation:**
 The program validates:
@@ -117,13 +119,16 @@ Building this project improved my skills in:
 8. This project helped me connect theoretical cybersecurity knowledge with real-world implementation.
 
 **Screenshots:**
+
 Screenshot 1: Project Structure
 <img width="750" height="297" alt="image" src="https://github.com/user-attachments/assets/5f0397dc-bc17-4261-8289-013a25342c16" />
 
 Screenshot 2: Compilation
+
 <img width="750" height="138" alt="image" src="https://github.com/user-attachments/assets/4ef2b1c6-9e81-438e-b523-e576205f5eab" />
 
 Screenshot 3: Help Menu
+
 <img width="750" height="216" alt="image" src="https://github.com/user-attachments/assets/0f6536dc-4227-4f0a-b27b-61db76901b1b" />
 
 Screenshot 4: Successful Payload Generation
