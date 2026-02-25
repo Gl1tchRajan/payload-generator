@@ -46,7 +46,6 @@ make
 
 **Usage:**
 Run the tool using:
-**./payload**
 ```
 ./payload -s <size> -m <mode> -o <output_file> -k <key>
 ```
