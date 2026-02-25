@@ -27,7 +27,7 @@ Clone the Repository
 ```
  cd Payload-Generator
  Build the Project
- make.
+ make
 ```
 
 **Usage:**
