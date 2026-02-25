@@ -17,8 +17,11 @@ int main()
         return 1;
     }
 
-    if (size > MAX_LIMIT)
-        size = MAX_LIMIT;
+    if (size <= 0 || size > MAX_LIMIT)
+    {
+        printf("Invalid payload size!\n");
+        return 1;
+    }
 
     uint8_t *payload = malloc(size + 1);
 
@@ -29,7 +32,7 @@ int main()
     }
 
     printf("Mode (random/binary): ");
-    scanf("%s", mode);
+    scanf("%19s", mode);
 
     generate_payload(payload, size, mode);
 
@@ -39,7 +42,7 @@ int main()
     if (choice == 'y' || choice == 'Y')
     {
         printf("Enter XOR Key: ");
-        scanf("%s", key);
+        scanf("%99s", key);
         xor_encrypt(payload, size, key);
     }
 
@@ -49,13 +52,22 @@ scanf(" %c", &chacha_choice);
 
 if (chacha_choice == 'y' || chacha_choice == 'Y')
 {
-    chacha_encrypt(payload, size);
+uint8_t key[32] = {0};
+uint8_t nonce[12] = {0};
+
+printf("Enter 32-byte key (hex or string simplified): ");
+scanf("%32s", key);
+
+printf("Enter 12-byte nonce: ");
+scanf("%12s", nonce);
+
+chacha20_encrypt(payload, size, key, nonce);
 }
 
     print_hex(payload, size);
 
     printf("Enter filename to save (optional): ");
-    scanf("%s", filename);
+    scanf("%199s", filename);
 
     save_payload(payload, size, filename);
 

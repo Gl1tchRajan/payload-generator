@@ -37,7 +37,8 @@ void save_payload(const uint8_t *payload, int size, const char *filename)
     }
     else
     {
-        strncpy(final_name, filename, sizeof(final_name) - 1);
+	strncpy(final_name, filename, sizeof(final_name) - 1);
+	final_name[sizeof(final_name) - 1] = '\0';
     }
 
     FILE *f = fopen(final_name, "wb");

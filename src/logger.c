@@ -1,5 +1,6 @@
 #include "../include/payload.h"
 #include <time.h>
+#include <string.h>
 
 void write_log(const char *message)
 {
@@ -9,7 +10,10 @@ void write_log(const char *message)
         return;
 
     time_t now = time(NULL);
-    fprintf(log, "[%s] %s\n", ctime(&now), message);
+    char *time_str = ctime(&now);
+    time_str[strcspn(time_str, "\n")] = 0;
 
-    fclose(log);
+    fprintf(log, "[%s] %s\n", time_str, message);	
+    
+fclose(log);
 }
