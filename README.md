@@ -69,6 +69,7 @@ Logs include:
 5. Execution status
 
 **Encrptytion:**
+
 Currently implemented: XOR encryption
 
 Optional future enhancement: Real ChaCha20 stream cipher implementation
