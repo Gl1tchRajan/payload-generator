@@ -32,7 +32,7 @@ Clone the Repository
 
 **Usage:**
 Run the tool using:
-./payload
+**./payload**
 
 **Project Structure:**
 ```
