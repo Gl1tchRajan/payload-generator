@@ -1,5 +1,7 @@
 **Payload Generator CLI Tool:**
-
+![Language](https://img.shields.io/badge/language-C-blue)
+![Platform](https://img.shields.io/badge/platform-Linux-important)
+![Status](https://img.shields.io/badge/status-active-green)
 A modular command-line payload generation tool written in C.
 This project demonstrates structured software design, argument validation, encryption handling, logging mechanisms, and secure file output management.
 It is designed for educational purposes in cybersecurity and systems programming.
