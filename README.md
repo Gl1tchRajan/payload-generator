@@ -60,7 +60,7 @@ Building this project improved my skills in:
 
 <img width="750" height="297" alt="image" src="https://github.com/user-attachments/assets/2a523a43-93e4-4c4a-97ee-b3ed113303a0" />
 
-<img width="750" height="297" alt="image" src="https://github.com/user-attachments/assets/5a14ef31-046b-49a0-b569-206adb9f228a" />
+<img width="750" height="297" alt="image" src="https://github.com/user-attachments/assets/5531d5eb-6194-4e6c-96e0-800f9013b9ec" />
 
 <img width="750" height="297" alt="image" src="https://github.com/user-attachments/assets/74be20ae-597b-4484-8175-e5675aade195" />
 
