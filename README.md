@@ -121,11 +121,9 @@ Screenshot 1: Project Structure
 <img width="750" height="297" alt="image" src="https://github.com/user-attachments/assets/5f0397dc-bc17-4261-8289-013a25342c16" />
 
 Screenshot 2: Compilation
-
 <img width="750" height="138" alt="image" src="https://github.com/user-attachments/assets/4ef2b1c6-9e81-438e-b523-e576205f5eab" />
 
 Screenshot 3: Help Menu
-
 <img width="750" height="216" alt="image" src="https://github.com/user-attachments/assets/0f6536dc-4227-4f0a-b27b-61db76901b1b" />
 
 Screenshot 4: Successful Payload Generation
@@ -140,8 +138,8 @@ Screenshot 5: Error Handling Example
 3. Unit testing
 4. Cross-platform compatibility
 5. Interactive CLI mode
+6. CI/CD integration
 
-CI/CD integration
 **Contributing:**
 Contributions are welcome!
 If you'd like to improve the project:
@@ -164,9 +162,3 @@ Rajan Kumar Mahato Tharu
 [![Linux](https://img.shields.io/badge/Linux-000000?style=for-the-badge&logo=linux)](https://www.kernel.org/)
 [![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git)](https://git-scm.com/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)](https://github.com/Gl1tchRajan)
-
-**GitHub Stats:**
-
-GitHub: https://github.com/Gl1tchRajan
-
-
